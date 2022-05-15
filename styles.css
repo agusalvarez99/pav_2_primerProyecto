@@ -1,8 +1,12 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
-  background-color: rgb(119, 188, 190);
+  background-color: lightblue;
 }
 h1 {
   color: black;
+  text-align: center;
+}
+.inline {
+  display: inline-block;
 }
