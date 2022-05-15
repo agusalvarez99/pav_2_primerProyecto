@@ -12,6 +12,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 
     <title>CV Alvarez Agustin!</title>
   </head>
@@ -82,8 +83,186 @@
       </div>
     </nav>
 
-    <h1>Hello, I'm Agustin and this is my CV!</h1>
+    <h1 style="text-align: center">Hello, welcome to my CV!</h1>
 
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingZero">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseZero"
+            aria-expanded="false"
+            aria-controls="collapseZero"
+          >
+            About me
+          </button>
+        </h2>
+        <div
+          id="collapseZero"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingZero"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p>
+              My name is Agustin, I was born on July 16 of 1999 and I'm
+              currently an advanced student of Information Systems Engineering.
+              I love watching series and movies, as well as exercising.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="false"
+            aria-controls="collapseOne"
+          >
+            Aptitudes
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <ul>
+              <li>Proactivity</li>
+              <li>Teamwork</li>
+              <li>Responsibility</li>
+              <li>Willingness to Learn</li>
+              <li>Punctuality</li>
+              <li>Leadership</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            Academic training
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <ul>
+              <li>
+                <b>Information Systems Engineering </b><br />
+                <i
+                  >Universidad Tecnológica Nacional - Facultad Regional
+                  Córdoba</i
+                >
+                <br />
+                <small>2018 - Present</small>
+                <br />
+                Approved subjects: 28 <br />
+                Overall average without fails: 8.70 / 10 <br />
+                Overall average with fails: 8.30 / 10
+              </li>
+              <li>
+                <b>Bachelor of Economics and Administration</b> <br />
+                <i>Instituto Parroquial Monte Cristo, Córdoba, Argentina</i>
+                <br />
+                <small>2012 - 2017</small> <br />
+                Overall average: 9.01 / 10
+              </li>
+              <li>
+                <b>PC Repair and Maintenance Technician</b> <br />
+                <i>Academia Santo Domingo - Córdoba, Argentina</i> <br />
+                <small>2017</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+            Knowledges
+          </button>
+        </h2>
+        <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body"></div>
+          <ul>
+            <li><b>Development</b></li>
+            <ul>
+              <li>C#</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>Angular</li>
+              <li>Python</li>
+              <li>GitLab</li>
+              <li>GitHub</li>
+            </ul>
+            <li><b>Data Bases</b></li>
+            <ul>
+              <li>SQL Server</li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseFour"
+            aria-expanded="false"
+            aria-controls="collapseFour"
+          >
+            Languages
+          </button>
+        </h2>
+        <div
+          id="collapseFour"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingFour"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <ul>
+              <li>Spanish native</li>
+              <li>English - Level: Intermediate</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
