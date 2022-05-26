@@ -7,6 +7,3 @@ function copy(id_elemento) {
   document.body.removeChild(aux);
   window.alert('Copied to clipboard!');
 }
-function copyEmail() {
-  return 0;
-}
